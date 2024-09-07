@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Template</title>
+    <title>HTML Form Example</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML structure.</p>
+    <h1>Contact Us</h1>
+    <form action="/submit-form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
