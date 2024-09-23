@@ -10,7 +10,7 @@
     <div class="container">
         <h1 class="text-center mt-5">Welcome to Bootstrap Page</h1>
         <p class="text-center">This page uses Bootstrap for responsive design.</p>
-        
+    
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
